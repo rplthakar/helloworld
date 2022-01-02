@@ -21,7 +21,7 @@ import (
 func Test_World(t *testing.T) {
     actual := World()
     if actual != "World" {
-        t.Fail()
+        t.Fail().
     }
 }
 EOF
